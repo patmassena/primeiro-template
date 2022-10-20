@@ -1,0 +1,150 @@
+@charset "utf-8";
+#titulo {
+    background-color: #E5A6C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    width: 1280px;
+}
+
+#logo {
+    margin: 10px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D44D87;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+li {
+    margin: 5px;
+    list-style-type: none;
+
+}
+
+nav {
+    background-color: #D44D87;
+    margin-bottom: 10px;
+    width: 1280px;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;    
+}
+
+img {
+    margin: 10px;
+}
+
+/*aqui começa a meiuca*/
+
+article {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 249px ;
+    margin-left: 5px;
+}
+
+
+#meiuca {
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#esquerda {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+
+}
+
+#centrao {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 25%;
+
+}
+
+.textinho {
+    margin-bottom: 20px;
+    margin-left: 10px   ;
+}
+
+.bt {
+    padding: 10px 20px;
+    background-color: #vffe5ec;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+
+    }
+
+.bt:hover {
+    text-decoration: underline;
+
+}
+    footer {
+        margin-top: 15px;
+    }
+
